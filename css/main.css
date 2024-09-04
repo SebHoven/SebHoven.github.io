@@ -1,3 +1,45 @@
 body {
-    background-color: yellow;
+  background-color: aqua;
+  margin: 0;
+}
+.parent {
+    background-color: aqua;
+}
+
+header {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #5b4d4d;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5b4d4d;
+}
+
+li {
+    float: left;
+}
+
+.Navtext {
+  display: block;
+  padding: 20px;
+  text-align: center;
+  background-color: #5b4d4d;
+  font-family: Tahoma;
+  font-size: 20px;
+  color: #dddddd;
+  text-decoration: none;
+}
+
+#NoClick {
+    pointer-events: none;
+    background-color: #433c3c;
+}
+
+:hover.Navtext {
+    background-color: gray;
 }

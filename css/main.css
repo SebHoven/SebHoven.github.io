@@ -43,3 +43,30 @@ li {
 :hover.Navtext {
     background-color: gray;
 }
+
+.hz {
+    float:right;
+    height: 60px;
+    width: 50px;
+}
+aside {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 3rem;
+    background-color:#5b4d4d;
+}
+
+.Bottext {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    background-color: #5b4d4d;
+    font-family: Tahoma;
+    font-size: 13px;
+    color: #dddddd;
+    text-decoration: none;
+  }
+  :hover.Bottext {
+    background-color: gray;
+}

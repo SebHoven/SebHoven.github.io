@@ -6,11 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My profile</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-  <main>
-    <article>
-      <h1>Wie ben ik?</h1>
+  <div class="Parent">
+    <header class="navbalk">
+      <ul>
+        <li><a href="/index.html" class="Navtext">Home</a></li>
+        <li><a href="/profile.html" class="Navtext" id="NoClick">Profiel</a></li>
+        <li><a href="/dashboard.html" class="Navtext">Dashboard</a></li>
+        <li><a href="/faq.html" class="Navtext">FAQ</a></li>
+        <li><a href="/blog.html" class="Navtext">Blog</a></li>
+        <a target="_blank" href="https://hz.nl/"><img class="hz" src="recources/hz-logo.png"></a>
+      </ul>
+      </ul>
+    </header>
+    <div class="LSide">Left Sidebar</div>
+    <main class="Lichaam">
+      <article>
+        <h1>Wie ben ik?</h1>
         <h2>Persoonlijke informatie:</h2>
         <p>Ik ben Seb van den Hoven, ik ben 20 jaar oud en kom uit Middelburg. Voor deze studie heb ik 1,5 jaar Japans
           in Leiden gestudeerd.</p>
@@ -22,13 +37,27 @@
             src="https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_656/b_white/f_auto/q_auto/ncom/software/switch/70010000029711/d55f4d73ad88beed1ea061aaaacbe772e40f46b598db513f3f85369d3455aa82"></a>
         <p>Ik houd ook van manga lezen maar laatste tijd lees ik graag webnovels, deze zijn vaak wel redelijk lang dus
           ik heb er nog niet heel veel gelezen.</p>
-    </article>
-  </main>
-  <nav>
-    <a href="/index.html">Home</a>
-    <a href="/dashboard.html">Dashboard</a>
-    <a href="/faq.html">FAQ</a>
-    <a href="/blog.html">Blog</a>
-</nav>
+      </article>
+    </main>
+    <footer class="Voet">
+      <aside>
+        <ul>
+          <li><a target="_blank" class="Bottext"
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20240412.pdf">
+              Course and Examination Regulations</a></li>
+          <li><a target="_blank" class="Bottext"
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">
+              Implementation Regulations</a></li>
+          <li><a target="_blank" class="Bottext" href="#">
+              Learn Environment</a></li>
+          <li><a target="_blank" class="Bottext" href="https://hz.osiris-student.nl/home">
+              Study Progress</a></li>
+          <li><a target="_blank" class="Bottext" href="https://github.com/HZ-HBO-ICT">
+              HZ-HBO-ICT Github</a></li>
+        </ul>
+      </aside>
+    </footer>
+  </div>
 </body>
+
 </html>

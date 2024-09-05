@@ -1,26 +1,33 @@
 body {
-  background-color: aqua;
+  background-color: white;
   margin: 0;
-}
-.parent {
-    background-color: aqua;
+  height: 100vh;
+  font-family: Tahoma;
 }
 
+.parent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.lichaam {
+    padding-bottom: 2.5rem;
+}
 header {
     width: 100vw;
     margin: 0;
     padding: 0;
-    background-color: #5b4d4d;
+    background-color: rgb(4, 101, 101);
 }
-ul {
+.Navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #5b4d4d;
+    background-color: rgb(4, 101, 101);
 }
 
-li {
+.midden {
     float: left;
 }
 
@@ -28,7 +35,7 @@ li {
   display: block;
   padding: 20px;
   text-align: center;
-  background-color: #5b4d4d;
+  background-color: rgb(4, 101, 101);
   font-family: Tahoma;
   font-size: 20px;
   color: #dddddd;
@@ -37,36 +44,82 @@ li {
 
 #NoClick {
     pointer-events: none;
-    background-color: #433c3c;
+    background-color: rgb(3, 78, 78);
+}
+
+/*^^^^voornamelijk Navigatiebalk^^^^*/
+main {
+    text-align: center;
+}
+
+.Karakter {
+    text-align: left;
+}
+
+.Info {
+    display:inline-block;
+    position: relative;
+    height: 100%;
+    width: 39%;
+    background-color:rgb(5, 163, 163);
+    color:#ffffff;
+    margin-right: 2.5%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Blade {
+    width: 90%;
+    height:25%;
+    object-fit:contain;
+}
+.Hobby {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 39%;
+    background-color:rgb(5, 163, 163);
+    color: #ffffff;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
 }
 
 :hover.Navtext {
-    background-color: gray;
+    background-color: rgb(7, 146, 146);
 }
 
 .hz {
-    float:right;
+    float: right;
     height: 60px;
     width: 50px;
 }
 aside {
-    position: absolute;
+    position:absolute;
     bottom: 0;
     width: 100vw;
-    height: 3rem;
-    background-color:#5b4d4d;
+    height: 46px;
+    background-color:rgb(4, 101, 101);
+    margin-top:auto;
+    text-align: center;
+    margin: auto;
 }
 
 .Bottext {
     display: block;
     padding: 15px;
     text-align: center;
-    background-color: #5b4d4d;
+    background-color: rgb(4, 101, 101);
     font-family: Tahoma;
     font-size: 13px;
     color: #dddddd;
     text-decoration: none;
   }
-  :hover.Bottext {
-    background-color: gray;
+:hover.Bottext {
+    color: rgb(173, 163, 163);
 }

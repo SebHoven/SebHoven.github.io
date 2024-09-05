@@ -2,46 +2,80 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="css/main.css">
-    <!--To make it look similar across all devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage</title>
+  <link rel="stylesheet" href="css/main.css">
+  <!--To make it look similar across all devices-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 
 <body>
-    <div class="Parent">
-        <header class="navbalk">
-          <ul>
-            <li><a href="/index.html" class="Navtext" id="NoClick">Home</a></li>
-            <li><a href="/profile.html" class="Navtext">Profiel</a></li>
-            <li><a href="/dashboard.html" class="Navtext">Dashboard</a></li>
-            <li><a href="/faq.html" class="Navtext">FAQ</a></li>
-            <li><a href="/blog.html" class="Navtext">Blog</a></li>
-            <a target="_blank" href="https://hz.nl/"><img class="hz" src="recources/hz-logo.png"></a>
+  <div class="Parent">
+    <header>
+      <nav>
+        <ul class="Navbar">
+          <li class="midden"><a href="/index.html" class="Navtext">Home</a></li>
+          <li class="midden"><a href="/profile.html" class="Navtext">Profiel</a></li>
+          <li class="midden"><a href="/dashboard.html" class="Navtext">Dashboard</a></li>
+          <li class="midden"><a href="/faq.html" class="Navtext">FAQ</a></li>
+          <li class="midden"><a href="/blog.html" class="Navtext">Blog</a></li>
+          <a target="_blank" href="https://hz.nl/"><img class="hz" src="recources/hz-logo.png" alt="hz-logo"></a>
         </ul>
-        </header>
-        <div class="LSide">Left Sidebar</div>
-        <main class="Lichaam">
-          <article>
-            <h1>Dit is de index</h1>
-          </article>
-        </main>
-        <footer class="Voet">
-            <aside>
-                <ul id="midden">
-                  <li><a target="_blank" class="Bottext" href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20240412.pdf">
-                    Course and Examination Regulations</a></li>
-                  <li><a target="_blank" class="Bottext" href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">
-                    Implementation Regulations</a></li>
-                  <li><a target="_blank" class="Bottext" href="#">
-                    Learn Environment</a></li>
-                  <li><a target="_blank" class="Bottext" href="https://hz.osiris-student.nl/home">
-                    Study Progress</a></li>
-                  <li><a target="_blank" class="Bottext" href="https://github.com/HZ-HBO-ICT">
-                    HZ-HBO-ICT Github</a></li>
-                </ul>
-            </aside>
-        </footer>
+      </nav>
+    </header>
+    <main class="Lichaam">
+      <div class="Info">
+        <h2>Waarom ICT?</h2>
+        <img class="Blade" src="recources/ict.jpg" alt="ict-image">
+        <p>Ik denk dat ik een goeie match voor HBO-ICT omdat ik erg van puzzelen en probleem oplossen houd. Ook vind ik
+          het leuk om grote projecten te ondergaan waar je het meerendeel van je tijd in kan steken.</p>
+        <p>Omdat ik al redelijk wat programmeer ervaring heb denk dat ik ook wel een beetje kan verwachten wat er van me
+          verwacht wordt.</p>
+        <p></p>
       </div>
+      <div class="Hobby">
+        <h2>ICT weetjes</h2>
+        <ul class="Karakter">
+          <li>
+            <p>De zin "information and communication technologies" wordt sinds de 80s gebruikt. De afkorting ICT sinds
+              1997.</p>
+          </li>
+          <li>
+            <p>In Nederland groeit de ICT-sector harder dan het Bruto Binnenlands Product</p>
+          </li>
+          <li>
+            <p>Zelfs met de enorme groei van de ICT heeft maar minder dan de helft van de wereld toegang tot het
+              internet.</p>
+          </li>
+          <img class="Blade" src="recources/Datacenter.jpg" alt="Database">
+          <li>
+            <p>In Nederland zijn <a href="https://www.denkdoeduurzaam.nl/themas/ict/feiten--cijfers">alle datacenters
+                efficiënter dan 50%</a>, dit komt mede doordat de hitte die wordt opgewekt voor andere doel einden
+              gebruikt kan worden.</p>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer class="Voet">
+      <aside>
+        <ul class="Navbar">
+          <li class="midden"><a target="_blank" class="Bottext"
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20240412.pdf">
+              Course and Examination Regulations</a></li>
+          <li class="midden"><a target="_blank" class="Bottext"
+              href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">
+              Implementation Regulations</a></li>
+          <li class="midden"><a target="_blank" class="Bottext" href="#">
+              Learn Environment</a></li>
+          <li class="midden"><a target="_blank" class="Bottext" href="https://hz.osiris-student.nl/home">
+              Study Progress</a></li>
+          <li class="midden"><a target="_blank" class="Bottext" href="https://github.com/HZ-HBO-ICT">
+              HZ-HBO-ICT Github</a></li>
+        </ul>
+      </aside>
+    </footer>
+  </div>
 </body>
 
 </html>

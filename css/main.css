@@ -34,7 +34,7 @@ header {
 
 .Navtext {
   display: block;
-  padding: 20px;
+  padding: 2.5vh;
   text-align: center;
   background-color: rgb(4, 101, 101);
   font-family: Tahoma;
@@ -72,7 +72,7 @@ aside {
 
 .Bottext {
     display: block;
-    padding: 15px;
+    padding: 1.5vh;
     text-align: center;
     background-color: rgb(4, 101, 101);
     font-family: Tahoma;
@@ -130,25 +130,31 @@ main {
 
 
 /*^^^^voornamelijk Profielpagina^^^^*/
-
-table {
-    border-collapse: collapse;
-    border:2px solid black;
-}
+.Tabeldiv {
+    display: inline-block;
+    position: relative;
+    height: 70vh;
+    width: 85vw;
+    margin-top: 9vh;
+    background-color:rgb(5, 163, 163);
+    color: #ffffff;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  
 th, td {
     border:1px solid black;
     font-size: 18px;
   }
-tr:nth-of-type(even) {
+/*tr:nth-of-type(even) {
     background-color: #eee;
-  }
+  }*/
 .Blank {
-   border: 0px; 
+   border: none; 
 }
 table {
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
     font-size: 0.8rem;
     letter-spacing: 1px;
   }
@@ -168,7 +174,12 @@ table {
     background-color: rgb(185, 24, 7);
     color: #fff;
 }
+.BlokPartitie {
+    background-color: rgb(62, 53, 53);
+}
+
 /*^^^^voornamelijk Dashboardpagina^^^^*/
+
 .FAQdiv {
     display: inline-block;
     position: relative;
@@ -179,17 +190,6 @@ table {
     color: #ffffff;
   }
 
-.Tabeldiv {
-    display: inline-block;
-    position: relative;
-    height: 70vh;
-    width: 85vw;
-    margin-top: 9vh;
-    background-color:rgb(5, 163, 163);
-    color: #ffffff;
-    padding-left: 2vw;
-    padding-right: 2vw;
-  }
 h2 {
     text-align: center;
 }
@@ -227,4 +227,9 @@ h1 {
 
 .ImgResize {
     padding-left: 0;
+}
+
+p {
+    margin-left: 5px;
+    margin-right: 5px;
 }

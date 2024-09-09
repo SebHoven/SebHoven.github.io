@@ -27,7 +27,7 @@
     <main class="Lichaam">
       <div class="Tabeldiv">
         <h1>Studievoortgang</h1>
-        <table class="Tabel">
+        <!--<table class="Tabel">
           <tr>
             <td class="Blank"></th>
             <th class="TabelTop">Behaalbare EC's</th>
@@ -108,7 +108,117 @@
             <td class="TabelBot">60</td>
             <td class="TabelBot">0/60</td>
             </tr>
+        </table>-->
+        <table>
+          <tr>
+            <th class="TabelTop">Blok</th>
+            <th class="TabelTop">Cursus</th>
+            <th class="TabelTop">Examen</th>
+            <th class="TabelTop">Cijfer</th>
+            <th class="TabelTop">EC</th>
+            <th class="TabelTop">EC's behaald?</th>
+          </tr>
+          <tr>
+            <td class="Blok" rowspan="4">1</td>
+            <td class="Cursus">Program- & Career Orientation</td>
+            <td>Presentatie</td>
+            <td>-</td>
+            <td>2,5</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td class="Cursus">Computer Science Basics</td>
+            <td>Schriftelijke kennistoets</td>
+            <td>-</td>
+            <td>5</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td class="Cursus">Programming Basics</td>
+            <td>Schriftelijke kennistoets</td>
+            <td>-</td>
+            <td>5</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td class="Cursus">Personal Professional Development Exploration</td>
+            <td>Criteriumgericht interview</td>
+            <td>-</td>
+            <td>12,5</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td class="Blok" rowspan="2">2</td>
+            <td class="Cursus" rowspan="2">Object-Oriented Programming</td>
+            <td>Presentatie(Groep)</td>
+            <td>-</td>
+            <td>5</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td>Schriftelijke kennistoets</td>
+            <td>-</td>
+            <td>5</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td class="Blok" rowspan="5">3</td>
+            <td class="Cursus" rowspan="4">Framework Project 1</td>
+            <td>Schriftelijke kennistoets</td>
+            <td>-</td>
+            <td>1</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td>Portfolio</td>
+            <td>-</td>
+            <td>2,5</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td>Presentatie(groep)</td>
+            <td>-</td>
+            <td>2,5</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td>Schriftelijke kennistoets</td>
+            <td>-</td>
+            <td>4</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td class="Cursus">Business IT Consultancy Basics</td>
+            <td>Video(individueel)</td>
+            <td>-</td>
+            <td>4</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td class="Blok" rowspan="3">4</td>
+            <td class="Cursus" rowspan="3">Framework Project 2</td>
+            <td>Presentatie(groep)</td>
+            <td>-</td>
+            <td>2,5</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td>Portfolio</td>
+            <td>-</td>
+            <td>2,5</td>
+            <td>Ja/Nee</td>
+          </tr>
+          <tr>
+            <td>Portfolio</td>
+            <td>-</td>
+            <td>5</td>
+            <td>Ja/Nee</td>
+          </tr>
         </table>
+        <label for="Studiepunten">Aantal Studiepunten:</label>
+        <meter id="Studiepunten" max="60" min="0" low="45" high="45" value="15" optimum="52.5">0/60</meter>
+        <label class="NBSA" for="Studiepunten">0 uit 60</label>
+        <!--^^^ALS HET AANTAL PUNTEN <45 IS DAN IS DE BALK ROOD, VANAF $% IS DE BALK GROEN-->
       </div>
     </main>
     <footer class="Voet">

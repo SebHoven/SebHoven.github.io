@@ -1,17 +1,17 @@
+html {
+    overflow-y: scroll;
+}
 body {
   background-color: white;
   margin: 0;
-  height: 100vh;
+  height: 95vh;
   font-family: Tahoma;
 }
 
 .parent {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-}
-.Lichaam {
-    padding-bottom: 2.5rem;
+    min-height: 95vh;
 }
 
 .Blade {
@@ -21,9 +21,15 @@ body {
     max-height: 30%;
     object-fit:contain;
 }
+
+main {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 3.45rem;
+}
 /*^^^Algemene code over heel de website^^^*/
 header {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -62,10 +68,10 @@ header {
 }
 
 .hz {
+    padding-left: calc(100vw - 100%);
     float: right;
     height: 60px;
     width: 50px;
-    margin-right: 10px;
 }
 
 /*^^^^Bovenste Navigatiebalk^^^^*/
@@ -73,17 +79,16 @@ header {
 aside {
     position: relative;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
+    margin-top: auto;
     height: 5vh;
     max-height: 100px;
     background-color:rgb(4, 101, 101);
-    margin-top:auto;
-    text-align: center;
-    margin: auto;
+    text-align: left;
 }
 
 .Bottext {
-    display: block;
+    display: inline-block;
     padding: 1.5vh;
     text-align: center;
     background-color: rgb(4, 101, 101);
@@ -96,11 +101,6 @@ aside {
     color: rgb(173, 163, 163);
 }
 /*^^^^voornamelijk Onderste Navigatiebalk^^^^*/
-
-main {
-    text-align: center;
-    font-size: 18px;
-}
 
 .Karakter {
     text-align: left;
@@ -118,8 +118,7 @@ main {
     color:#ffffff;
     margin-right: 2.5%;
     margin-left: 5%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 3.8vh;
 }
 
 .Hobby {
@@ -134,8 +133,8 @@ main {
     color: #ffffff;
     margin-left: 2.5%;
     margin-right: 5%;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 3.8vh;
+
 }
 .Katten {
     width: 50%;
@@ -165,7 +164,7 @@ audio {
     max-height: 100%;
     min-width: 81vw;
     max-width: 100%;
-    margin-top: 4vh;
+    margin-top: 3.8vh;
     background-color:rgb(5, 163, 163);
     color: #ffffff;
     padding-left: 2vw;
@@ -221,13 +220,20 @@ tr:nth-of-type(odd) {
     min-height: 80vh;
     max-height: 100%;
     width: 85vw;
-    margin-top: 4vh;
+    margin-top: 3.8vh;
     background-color:rgb(5, 163, 163);
     color: #ffffff;
   }
 /*^^^^Div voor FAQ en blog pagina^^^^*/
 h2 {
     text-align: center;
+}
+
+.Blogtekst{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .Antwoord {
     font-size: 17px;
@@ -243,7 +249,7 @@ h3 {
 }
 
 summary {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 21px;
 }
 

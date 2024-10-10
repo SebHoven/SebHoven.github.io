@@ -39,9 +39,8 @@ main {
     background-color: rgb(4, 101, 101);
 }
 
-.midden {
-    float: left;
-    
+.list-left {
+    float: left; 
 }
 
 .navtext {
@@ -103,7 +102,7 @@ aside {
     text-align: left;
 }
 
-.info {
+.profdex-div {
     border-radius: 15px;
     vertical-align: top;
     display:inline-block;
@@ -114,35 +113,22 @@ aside {
     background-color:rgb(5, 163, 163);
     color:#ffffff;
     text-align: left;
+    margin-top: 2.4rem;
+}
+#info {
     margin-right: 2.5%;
     margin-left: 5%;
-    margin-top: 2.4rem;
 }
-
-.hobby {
-    border-radius: 15px;
-    vertical-align: top;
-    display: inline-block;
-    position: relative;
-    min-height: 80vh;
-    max-height: 100%;
-    width: 39%;
-    background-color:rgb(5, 163, 163);
-    color: #ffffff;
-    text-align: left;
+#hobby {
     margin-left: 2.5%;
     margin-right: 5%;
-    margin-top: 2.4rem;
+}
 
-}
-.katten {
-    width: 100%;
-}
-.honden {
+.kathond {
     width: 100%;
 }
 
-img {
+img:not(.kathond) {
     border-radius: 15px;
 }
 audio {
@@ -165,6 +151,24 @@ div.card {
 div.container {
     padding: 1%;
   }
+.index-image {
+    background-image: url(/recources/kirchberg.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
+#introdiv {
+    margin-bottom: 10%;
+    text-align: center;
+}
+#intro-tekst {
+    line-height: 50vh;
+}
+#big-arrow {
+    font-size: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 /*^^^^voornamelijk Profielpagina^^^^*/
 .tabeldiv {
     border-radius: 25px;
@@ -177,7 +181,6 @@ div.container {
     margin-top: 2.4rem;
     background-color:rgb(5, 163, 163);
     color: #ffffff;
-    text-align: left;
     padding-left: 2vw;
     padding-right: 2vw;
   }
